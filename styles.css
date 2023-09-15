@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+    background-image: url('https://images.unsplash.com/photo-1509023464722-18d996393ca8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-wrapper {
+    color: white;
+    border-radius: 10px;
+    min-height: 60%;
+    min-width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.counter-wrapper > * {
+    margin-bottom: 30px;
+}
+
+
+.counter-wrapper #people-count {
+    font-size: 40px;
+}
+
+
+.counter-wrapper p {
+    font-size: 25px;
+}
+
+
+.counter-wrapper button {
+    color: white;
+    background-color: transparent;
+    min-width: 50%;
+    max-width: 80%;
+    padding: 10px 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 2px solid rgb(243, 212, 36);
+    border-radius: 4px;
+    transition: background-color 0.4s;
+}
+
+.counter-wrapper button:hover {
+    background-color: rgb(243, 212, 36);
+    color: black;
+}
+
+.counter-wrapper button:active {
+    opacity: 0.8;
+}
+
